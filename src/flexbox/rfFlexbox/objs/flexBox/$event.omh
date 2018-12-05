@@ -1,0 +1,18 @@
+On evSizeChanged
+	Calculate pageWidth as $cfield.$width
+	Calculate buttonWidth as pageWidth/5
+	
+	Calculate $cinst.$objs.button1.$left as spaceWidth/2
+	Calculate $cinst.$objs.button1.$width as buttonWidth-spaceWidth
+	
+	Calculate $cinst.$objs.button2.$left as buttonWidth+spaceWidth/2
+	Calculate $cinst.$objs.button2.$width as buttonWidth-spaceWidth
+	
+	Calculate $cinst.$objs.button3.$left as buttonWidth*2+spaceWidth/2
+	Calculate $cinst.$objs.button3.$width as buttonWidth-spaceWidth
+	
+	Calculate $cinst.$objs.button4.$left as buttonWidth*3+spaceWidth/2
+	Calculate $cinst.$objs.button4.$width as buttonWidth-spaceWidth
+	
+	Calculate $cinst.$objs.button5.$left as buttonWidth*4+spaceWidth/2
+	Calculate $cinst.$objs.button5.$width as buttonWidth-spaceWidth
